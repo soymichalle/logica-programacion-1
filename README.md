@@ -1,6 +1,6 @@
 Proyecto de lógica con Node.js
 
-Archivos
+Archivos:
 app.js
 
 Estado: En desarrollo.

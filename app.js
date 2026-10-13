@@ -35,21 +35,14 @@ function validarNumero(numero, posicion) {
 // * Función main
 function main() {
 
-    // * Definir arreglo de números
-    let numeros = [];
+    // * Se reciben los numeros en variables apartes
+    let numero1 = validarNumero(pedirNumeros(1), 1);
+    let numero2 = validarNumero(pedirNumeros(2), 2);
+    let numero3 = validarNumero(pedirNumeros(3), 3);
 
-    // * Ciclo para pedir 3 numeros y guardarlo en el arreglo si corresponde
-    for (let i = 0; i < 3; i++) {
-
-        let numero = pedirNumeros(i + 1);
-        let numeroValidado = validarNumero(numero, i + 1);
-
-        numeros.push(numeroValidado);
-    }
-
-    console.log("El array numeros es:");
-    console.log(numeros);
-
+    console.log(numero1);
+    console.log(numero2);
+    console.log(numero3);
 }
 
 main();
