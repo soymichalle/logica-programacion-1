@@ -1,6 +1,7 @@
-Proyecto de lógica con Node.js
+Proyecto de lógica de programación con Node.js
 
-Archivos:
-app.js
+Archivo(s):
+- app.js
 
-Estado: En desarrollo.
+Estado: 
+Finalizado, resultados se muestran en consola.
